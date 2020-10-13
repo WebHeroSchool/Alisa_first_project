@@ -133,21 +133,26 @@ body {
   display: none;
 }
 @media (max-width: 768px) {
+  .wrapper {
+    width: 87%;
+  }
   .menu {
     display: none;
   }
   .header {
     align-items: center;
-    margin-bottom: 28px;
+    margin-top: 10px;
+    margin-bottom: 17px;
   }
   .main {
     text-align: center;
     padding: 74% 0 0;
-    background-size: 74%;
-    background-position: top center;
+    background-size: 87%;
+    background-position: center 0px;
   }
   .main__title {
-    margin-bottom: 44px;
+    margin-bottom: 33px;
+    margin-top: 18px;
     font-family: "pt_serifbold", serif;
     font-size: 30px;
     line-height: 40px;
@@ -233,7 +238,7 @@ body {
     /*margin-bottom: 400px;*/
     width: 100%;
     height: 100%;
-    padding: 28% 0;
+    padding-top: 49%;
     text-align: center;
     background: #fff;
   }
@@ -242,7 +247,7 @@ body {
     font-size: 30px;
     line-height: 35px;
     margin: 0;
-    padding-bottom: 4%;
+    padding-bottom: 7%;
   }
   .menu a:hover {
     color: #0056ec;
