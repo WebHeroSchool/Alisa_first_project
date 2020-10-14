@@ -12,12 +12,12 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
   position: relative;
 }
 .logo {
   position: relative;
-  padding: 40px 0 40px 44px;
+  padding: 40px 0 40px 48px;
 }
 .logo__circle {
   position: absolute;
@@ -46,10 +46,10 @@ body {
 }
 .menu__item {
   position: relative;
-  margin-right: 26px;
+  margin-right: 29px;
   font-family: "robotobold", sans-serif;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 24px;
   color: #000;
   text-decoration: none;
   transition: opacity 0.5s;
@@ -94,27 +94,31 @@ body {
   opacity: 1;
 }
 .main {
-  padding: 0 63% 100px 0;
+  padding: 125px 63% 184px 0;
   background: top right no-repeat url(img/mainImg.svg);
+  background-size: 774px;
   /*position: fixed;
   z-index: 1;*/
 }
 .main__title {
-  margin: 0 0 40px 0;
+  margin: -46px 0 40px 0;
   font-family: "pt_serifbold", serif;
-  font-size: 50px;
-  line-height: 66px;
+  font-size: 67px;
+  line-height: 85px;
 }
 .main__subtitle {
-  margin: 0 0 41px 0;
+  max-width: 437px;
+  margin: 40px 0 41px 0;
   font-family: "robotobold", sans-serif;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 22px;
+  line-height: 25px;
+  padding-bottom: 21px;
 }
 .main__button {
-  padding: 14px 16px;
+  margin-left: 4px;
+  padding: 14px 23px;
   font-family: "robotoregular", sans-serif;
-  font-size: 14px;
+  font-size: 19px;
   line-height: 16px;
   color: #fff;
   background: #0056ec;
@@ -258,3 +262,42 @@ body {
     display: none;
   }
 }
+@media (max-width: 1366px) {
+  .wrapper {
+    width: 68%;
+  }
+  .header {
+    margin-bottom: 85px;
+  }
+  .logo {
+    padding: 40px 0px 40px 45px;
+  }
+  .menu__item {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .main {
+    background-size: 510px;
+  }
+  .main__title {
+    min-width: 388px;
+    margin: -109px 0 40px 0;
+    font-size: 50px;
+    line-height: 65px;
+  }
+  .main__subtitle {
+    min-width: 351px;
+    margin-bottom: 34px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .main__button {
+    margin-left: 2px;
+    padding: 12px 21px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 91%;
+  }
