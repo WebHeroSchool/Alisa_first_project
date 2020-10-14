@@ -198,6 +198,7 @@ body {
     font-family: "pt_serifbold", serif;
     font-size: 30px;
     line-height: 40px;
+    white-space: pre-line;
   }
   .main__subtitle {
     margin-bottom: 25px;
