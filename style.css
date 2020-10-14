@@ -201,7 +201,7 @@ body {
     white-space: pre-line;
   }
   .main__subtitle {
-    margin-bottom: 25px;
+    margin: 0 auto 25px;
     font-family: "robotobold", sans-serif;
     font-size: 16px;
     line-height: 19px;
