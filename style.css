@@ -37,6 +37,20 @@ body {
 .logo__circle_color_dark-blue {
   background: #0056ec;
 }
+.logo:hover .logo__circle_color_dark-blue,
+.logo:hover .logo__circle_color_blue {
+  animation: spin 2s linear infinite;
+  animation-play-state: running;
+}
+.logo:hover .logo__circle_color_dark-blue {
+  animation-delay: 0.2s;
+}
+
+@keyframes spin {
+  to {
+    transform: rotateY(180deg) translateY(-50%);
+  }
+}
 .logo__text {
   font: bold 24px/31px "pt_serifbold", arial, helvetica, sans-serif;
 }
