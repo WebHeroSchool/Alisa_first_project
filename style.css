@@ -311,7 +311,7 @@ body {
     background-position-y: 0;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .wrapper {
     width: 87%;
   }
