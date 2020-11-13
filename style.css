@@ -137,7 +137,7 @@ body {
 .label-burger {
   display: none;
 }
-@media (max-width: 1366px) {
+@media (max-width: 1580px) {
   .wrapper {
     width: 68%;
   }
@@ -175,7 +175,7 @@ body {
     font-size: 14px;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1320px) {
   .wrapper {
     width: 91%;
   }
@@ -187,10 +187,41 @@ body {
     background-position-y: 0;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   .wrapper {
     width: 87%;
   }
+  .header {
+    margin-bottom: 50px;
+  }
+  .logo__text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .main {
+    background-size: 380px;
+  }
+  .main__title {
+    max-width: 300px;
+    font-family: "pt_serifbold", serif;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .main__subtitle {
+    min-width: 300px;
+    max-width: 300px;
+    font-family: "robotobold", sans-serif;
+    font-size: 15px;
+    line-height: 19px;
+    margin-bottom: 28px;
+  }
+  .main__button {
+    font-family: "robotoregular", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+@media (max-width: 768px) {
   .menu {
     display: none;
   }
@@ -207,20 +238,10 @@ body {
   }
   .main__title {
     margin: 18px auto 33px;
-    font-family: "pt_serifbold", serif;
-    font-size: 30px;
-    line-height: 40px;
   }
   .main__subtitle {
-    font-family: "robotobold", sans-serif;
     font-size: 16px;
-    line-height: 19px;
     margin: 0 auto 25px;
-  }
-  .main__button {
-    font-family: "robotoregular", sans-serif;
-    font-size: 14px;
-    line-height: 16px;
   }
   .logo {
     padding: 30px 266px 30px 0;
