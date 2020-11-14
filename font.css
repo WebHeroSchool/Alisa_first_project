@@ -2,8 +2,7 @@
 
 @font-face {
   font-family: "pt_serifbold";
-  src: url("/fonts/ptserif-bold-webfont.woff") format("woff");
-  src: url("C:/Users/Алиса/Documents/Alisa_first_project/fonts/ptserif-bold-webfont.woff")
+  src: url("https://alisafirstproject.whs123.vercel.app/fonts/ptserif-bold-webfont.woff")
     format("woff");
   font-weight: normal;
   font-style: normal;
@@ -11,8 +10,7 @@
 
 @font-face {
   font-family: "pt_serifbold_italic";
-  src: url("/fonts/ptserif-bolditalic-webfont.woff") format("woff");
-  src: url("C:/Users/Алиса/Documents/Alisa_first_project/fonts/ptserif-bolditalic-webfont.woff")
+  src: url("https://alisafirstproject.whs123.vercel.app/fonts/ptserif-bolditalic-webfont.woff")
     format("woff");
   font-weight: normal;
   font-style: normal;
@@ -20,8 +18,7 @@
 
 @font-face {
   font-family: "pt_serifitalic";
-  src: url("/fonts/ptserif-italic-webfont.woff") format("woff");
-  src: url("C:/Users/Алиса/Documents/Alisa_first_project/fonts/ptserif-italic-webfont.woff")
+  src: url("https://alisafirstproject.whs123.vercel.app/fonts/ptserif-italic-webfont.woff")
     format("woff");
   font-weight: normal;
   font-style: normal;
@@ -29,8 +26,7 @@
 
 @font-face {
   font-family: "pt_serifregular";
-  src: url("/fonts/ptserif-regular-webfont.woff") format("woff");
-  src: url("C:/Users/Алиса/Documents/Alisa_first_project/fonts/ptserif-regular-webfont.woff")
+  src: url("https://alisafirstproject.whs123.vercel.app/fonts/ptserif-regular-webfont.woff")
     format("woff");
   font-weight: normal;
   font-style: normal;
@@ -38,32 +34,28 @@
 
 @font-face {
   font-family: "robotobold";
-  src: url("/fonts/roboto-bold-webfont.woff") format("woff");
-  src: url("C:/Users/Алиса/Documents/Alisa_first_project/fonts/roboto-bold-webfont.woff")
+  src: url("https://alisafirstproject.whs123.vercel.app/fonts/roboto-bold-webfont.woff")
     format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "robotobold_italic";
-  src: url("/fonts/roboto-bolditalic-webfont.woff") format("woff");
-  src: url("C:/Users/Алиса/Documents/Alisa_first_project/fonts/roboto-bolditalic-webfont.woff")
+  src: url("https://alisafirstproject.whs123.vercel.app/fonts/roboto-bolditalic-webfont.woff")
     format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "robotoitalic";
-  src: url("/fonts/roboto-italic-webfont.woff") format("woff");
-  src: url("C:/Users/Алиса/Documents/Alisa_first_project/fonts/roboto-italic-webfont.woff")
+  src: url("https://alisafirstproject.whs123.vercel.app/fonts/roboto-italic-webfont.woff")
     format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "robotoregular";
-  src: url("/fonts/roboto-regular-webfont.woff") format("woff");
-  src: url("C:/Users/Алиса/Documents/Alisa_first_project/fonts/roboto-regular-webfont.woff")
+  src: url("https://alisafirstproject.whs123.vercel.app/fonts/roboto-regular-webfont.woff")
     format("woff");
   font-weight: normal;
   font-style: normal;

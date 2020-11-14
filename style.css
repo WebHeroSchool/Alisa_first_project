@@ -44,6 +44,7 @@ body {
 }
 .logo:hover .logo__circle_color_dark-blue {
   animation-delay: 0.2s;
+  animation-duration: 1.5s;
 }
 
 @keyframes spin {
@@ -71,29 +72,8 @@ body {
 .menu__item:last-child {
   margin-right: 0;
 }
-.menu__item_active::after {
-  position: absolute;
-  left: 0;
-  display: block;
-  content: "";
-  width: 100%;
-  height: 3px;
-  background: #0056ec;
-}
-.menu__item:after {
-  position: absolute;
-  left: 0;
-  display: block;
-  content: "";
-  width: 100%;
-  height: 3px;
-  background: #0056ec;
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-.menu__item:hover {
-  opacity: 0.5;
-}
+.menu__item_active::after,
+.menu__item:after,
 .menu__item:hover:after {
   position: absolute;
   left: 0;
@@ -103,12 +83,18 @@ body {
   height: 3px;
   background: #0056ec;
 }
+.menu__item:after {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.menu__item:hover {
+  opacity: 0.5;
+}
 .menu__item:hover:after,
 .menu__item_active:after {
   opacity: 1;
 }
 .main {
-  /*padding: 125px 63% 184px 0;*/
   background: top right no-repeat url(img/mainImg.svg);
   background-size: 774px;
   padding-bottom: 155px;
@@ -151,12 +137,12 @@ body {
 .label-burger {
   display: none;
 }
-@media (max-width: 1366px) {
+@media (max-width: 1580px) {
   .wrapper {
     width: 68%;
   }
   .header {
-    margin-bottom: 85px;
+    margin-bottom: 82px;
   }
   .logo {
     padding: 40px 0px 40px 45px;
@@ -167,13 +153,12 @@ body {
   }
   .main {
     background-size: 510px;
-    padding-top: 0;
-    background-position-y: -16px;
+    padding-top: 3;
+    background-position-y: 4px;
   }
   .main__title {
-    /*min-width: 388px;*/
     max-width: 400px;
-    margin: 101px 0 40px 0;
+    margin: -58px 0 40px 0;
     font-size: 50px;
     line-height: 65px;
   }
@@ -190,13 +175,53 @@ body {
     font-size: 14px;
   }
 }
-
-/*Медиа 768*/
-
-@media (max-width: 768px) {
+@media (max-width: 1320px) {
+  .wrapper {
+    width: 91%;
+  }
+  .main__title {
+    margin: 0 0 40px;
+  }
+  .main {
+    padding-top: 18px;
+    background-position-y: 0;
+  }
+}
+@media (max-width: 960px) {
   .wrapper {
     width: 87%;
   }
+  .header {
+    margin-bottom: 50px;
+  }
+  .logo__text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .main {
+    background-size: 380px;
+  }
+  .main__title {
+    max-width: 300px;
+    font-family: "pt_serifbold", serif;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .main__subtitle {
+    min-width: 300px;
+    max-width: 300px;
+    font-family: "robotobold", sans-serif;
+    font-size: 15px;
+    line-height: 19px;
+    margin-bottom: 28px;
+  }
+  .main__button {
+    font-family: "robotoregular", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+@media (max-width: 768px) {
   .menu {
     display: none;
   }
@@ -207,27 +232,16 @@ body {
   }
   .main {
     text-align: center;
-    padding: 74% 0 0;
+    padding: 74% 0 20px;
     background-size: 87%;
     background-position: center 0px;
   }
   .main__title {
-    margin-bottom: 33px;
-    margin-top: 18px;
-    font-family: "pt_serifbold", serif;
-    font-size: 30px;
-    line-height: 40px;
+    margin: 18px auto 33px;
   }
   .main__subtitle {
-    font-family: "robotobold", sans-serif;
     font-size: 16px;
-    line-height: 19px;
     margin: 0 auto 25px;
-  }
-  .main__button {
-    font-family: "robotoregular", sans-serif;
-    font-size: 14px;
-    line-height: 16px;
   }
   .logo {
     padding: 30px 266px 30px 0;
@@ -237,7 +251,6 @@ body {
   }
   .label-burger {
     display: flex;
-    /* display: block;*/
     align-items: center;
     top: 32px;
     right: 24px;
@@ -318,19 +331,7 @@ body {
     display: none;
   }
 }
-@media (max-width: 1024px) {
-  .wrapper {
-    width: 91%;
-  }
-  .main__title {
-    margin: 0 0 40px;
-  }
-  .main {
-    padding-top: 18px;
-    background-position-y: 0;
-  }
-}
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .wrapper {
     width: 87%;
   }
@@ -346,7 +347,7 @@ body {
     line-height: 39px;
     max-width: 300px;
     min-width: 100px;
-    margin: 22px 0 33px 15px;
+    margin: 22px auto 33px;
   }
   .main__subtitle {
     line-height: 19px;
