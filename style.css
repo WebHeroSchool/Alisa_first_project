@@ -142,7 +142,7 @@ body {
     width: 68%;
   }
   .header {
-    margin-bottom: 85px;
+    margin-bottom: 82px;
   }
   .logo {
     padding: 40px 0px 40px 45px;
@@ -153,12 +153,12 @@ body {
   }
   .main {
     background-size: 510px;
-    padding-top: 0;
-    background-position-y: -16px;
+    padding-top: 3;
+    background-position-y: 4px;
   }
   .main__title {
     max-width: 400px;
-    margin: 101px 0 40px 0;
+    margin: -58px 0 40px 0;
     font-size: 50px;
     line-height: 65px;
   }
